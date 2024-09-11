@@ -13,3 +13,6 @@ sudo apt install imagemagick
 
 # pour le ssh
 sudo apt install openssh-server openssh-client
+
+# pour les TIPE
+sudo apt install libreoffice
