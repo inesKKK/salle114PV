@@ -21,3 +21,6 @@ sudo apt install -y openssh-server openssh-client
 
 # pour les TIPE
 sudo apt install -y libreoffice
+
+# pour le drive region
+sudo apt install nextcloud
