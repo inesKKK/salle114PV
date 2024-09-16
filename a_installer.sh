@@ -9,6 +9,8 @@ wget https://github.com/VSCodium/vscodium/releases/download/1.93.1.24256/codium_
 sudo apt install ./codium_1.93.1.24256_amd64.deb
 rm codium_1.93.1.24256_amd64.deb
 sudo apt install -y opam
+sudo apt install -y valgrind
+sudo apt install -y gdb
 
 # pour les TP MP2I
 sudo apt install -y tree
