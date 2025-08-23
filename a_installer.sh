@@ -5,12 +5,15 @@ sudo apt install -y gcc
 sudo apt install -y gdb
 sudo apt install -y postgresql
 sudo apt install -y spyder
-wget https://github.com/VSCodium/vscodium/releases/download/1.93.1.24256/codium_1.93.1.24256_amd64.deb
-sudo apt install ./codium_1.93.1.24256_amd64.deb
-rm codium_1.93.1.24256_amd64.deb
+#wget https://github.com/VSCodium/vscodium/releases/download/1.93.1.24256/codium_1.93.1.24256_amd64.deb
+#sudo apt install ./codium_1.93.1.24256_amd64.deb
+wget https://github.com/VSCodium/vscodium/releases/download/1.102.35058/codium_1.102.35058_amd64.deb
+sudo apt install ./codium_1.102.35058_amd64.deb
+rm codium_1.*_amd64.deb
 sudo apt install -y opam
 sudo apt install -y valgrind
 sudo apt install -y gdb
+sudo apt install -y locate
 
 # pour les TP MP2I
 sudo apt install -y tree
@@ -25,4 +28,5 @@ sudo apt install -y openssh-server openssh-client
 sudo apt install -y libreoffice
 
 # pour le drive region
-sudo apt install nextcloud
+#sudo apt install nextcloud
+sudo apt install nextcloud-desktop
